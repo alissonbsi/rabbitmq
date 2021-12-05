@@ -1,0 +1,37 @@
+*.log
+logstash.json
+
+.idea/
+node_modules
+
+# Eclipse
+.classpath
+.project
+.settings/
+**/logFile_IS_UNDEFINED
+**/SCHEMA_SDBANCONET.sql
+**/SCHEMA_SDIMIO.sql
+
+# Maven
+pom.xml.versionsBackup
+target/
+bin/
+
+# JRebel
+**/rebel.xml
+
+.sonarlint/**
+.metadata/**
+.recommenders/**
+**/.gradle/
+
+transaction-logs/
+*.iml
+*.ipr
+*.iws
+/.metadata/
+/.recommenders/
+**/dependencia*.txt
+
+#Docker
+modules/docker/docker-compose.yml
